@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center|right"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+     <ProgressBar
+             android:id="@+id/progressBar1"
+             style="@style/progressBar"
+              />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginRight="41dp" >
+
+        <ImageButton
+            style="@style/backArrowBtt"
+            android:id="@+id/arrowBtt"            
+             />
+    
+    	<TextView
+    	    style="@style/codeActivityHeading1"
+    	    android:gravity="center_horizontal|center_vertical"
+    	    android:text="@string/thanks_for_registering" />
+
+    </LinearLayout>
+    
+    <TextView
+        style="@style/setNumberHeading2"
+        android:text="@string/please_enter_4_digits"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:id="@+id/editCode1"
+            style="@style/codeNumber"
+             />
+
+        <EditText
+            android:id="@+id/editCode2"
+            style="@style/codeNumber"
+            />
+
+        <EditText
+            android:id="@+id/editCode3"
+            style="@style/codeNumber"
+             />
+
+        <EditText
+            android:id="@+id/editCode4"
+            style="@style/codeNumber"
+             />
+
+        
+    </LinearLayout>
+
+        <TextView
+        style="@style/sentto"
+        android:text="@string/sms_sent"
+        android:id="@+id/smssentto" />
+
+        
+        
+    <RelativeLayout
+        android:id="@+id/ringcatpcha_logo_codelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        
+        
+         
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp">
+        
+         <Button
+        	android:id="@+id/callmeBtt"
+        	android:text="@string/callme"
+        	style="@style/callmebtt"        	
+         />
+
+         </LinearLayout>
+        
+
+    </RelativeLayout>
+    
+    
+</LinearLayout>

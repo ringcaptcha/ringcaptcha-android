@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN ACTIVITY -->
+    <string name="app_name">SampleApp</string>
+    <string name="menu_help">Help</string>
+    <string name="abajo">Below</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world"></string>
+    <string name="verify_your_phone">Verify your phone</string>
+
+    <!-- COUNTRY LIST ACTIVITY -->
+    <string name="search_title">Your country</string>
+    <string name="search_hint">Search...</string>
+    
+    <!-- VERIFY ACTIVITY -->
+    <string name="title_verify">Verify your number</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="please_confirm">Please confirm your country code and enter your phone number</string>
+    <string name="your_country">YOUR COUNTRY</string>
+    <string name="country_code_phone_number">YOUR COUNTRY CODE AND PHONE NUMBER</string>
+    <string name="phone_number">your phone number</string>
+    <string name="number_confirmation">Number Confirmation</string>
+    <string name="is_your_number_correct">Is Your phone number above correct?</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="resend">Re-send</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>    
+    
+    <!-- VERIFY CODE ACTIVITY -->
+    <string name="thanks_for_registering">Phone number verification</string>
+    <string name="please_enter_4_digits">Please enter the 4 digit activation code</string>
+    <string name="code_error">The PIN code you entered is invalid. Please try again.</string>
+    <string name="sms_sent">We have sent you an SMS with a code to</string>
+    <string name="callme">Call me</string>
+    <string name="seconds_left">You must wait %d seconds to try again</string>
+    <string name="minutes_left">You must wait %d minutes to try again</string>
+    <string name="preparing_callme">Wait for the call</string>
+    
+    <!-- HELP ACTIVITY -->
+    <string name="help_content">Help me!</string>
+    
+    <!-- DIALOGS MESSAGES -->
+    <string name="loading">Loading</string>
+    <string name="sending_msg">"Sending message..."</string>
+    <string name="verifying_msg">"Verifying code..."</string>
+    
+    <!-- ERROR MESSAGES -->
+    <string name="ERROR_DEFAULT_MESSAGE">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_INVALID_NUMBER_LENGTH">The phone number you entered is not valid. Please try again.</string>
+    <string name="ERROR_INVALID_NUMBER">The phone number you entered is not valid. Please try again.</string>
+    <string name="ERROR_COUNTRY_NOT_SUPPORTED">The country code you entered is not valid. Please try again.</string>
+    <string name="ERROR_INVALID_SITE_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_APP_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_DOMAIN">Invalid app name. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_PHONE_NUMBER_NOT_SIM_CARD">The phone number you dialed does not match sim card. Please try again.</string>
+    <string name="ERROR_INVALID_SECRET_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_SESSION">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_SESSION_EXPIRED">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_MAX_ATTEMPTS_REACHED">You exceeded the maximum amount of attempts. Please try again in 15 minutes.</string>
+    <string name="ERROR_OUT_OF_CREDIT">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_INVALID_PIN_CODE">The PIN code you entered is invalid. Please try again.</string>
+    <string name="ERROR_MAX_VALIDATIONS_REACHED">You exceeded the maximum amount of verifications. Please request another PIN before trying again.</string>
+    
+</resources>

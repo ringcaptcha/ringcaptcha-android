@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="right"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/setNumberHeading1"
+            android:text="@string/please_confirm" />
+
+        <TextView
+            style="@style/setNumberHeading2"
+            android:text="@string/your_country" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countryselect_background_style"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/setNumberCountryIcon"
+                style="@style/setNumberCountryIcon" />
+
+            <TextView
+                android:id="@+id/nombrepais"
+                style="@style/nombrePais" />
+
+            <ImageButton
+                android:id="@+id/btnselectcountry"
+                android:src="@drawable/arrow"
+                style="@style/arrowBtt" />
+            
+        </LinearLayout>
+
+        <TextView
+            style="@style/setNumberHeading2"
+            android:text="@string/country_code_phone_number" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/textDialingCode"
+                style="@style/dialingCodeStyle"
+                 />
+
+            <EditText
+                android:id="@+id/textPhone"
+                style="@style/setNumberEditText"
+                android:hint="@string/phone_number"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/butOk"
+                style="@style/buttonStyle"
+                android:text="@string/ok" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ringcatpcha_logo_llayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

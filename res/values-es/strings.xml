@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN ACTIVITY -->
+    <string name="app_name">SampleApp</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="abajo">Abajo</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="hello_world"></string>
+    <string name="verify_your_phone">Verifique su teléfono</string>
+    
+    <!-- COUNTRY LIST ACTIVITY -->
+    <string name="search_title">Tu país</string>
+    <string name="search_hint">Buscar...</string>
+    
+    <!-- VERIFY ACTIVITY -->
+    <string name="title_verify">Verifica tu número</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Hecho</string>
+    <string name="please_confirm">Por favor confirma tu código de país e ingresa tu número telefónico</string>
+    <string name="your_country">TU PAIS</string>
+    <string name="country_code_phone_number">TU CODIGO DE PAIS Y TU NUMERO TELEFONICO</string>
+    <string name="phone_number">tu número telefónico</string>
+    <string name="number_confirmation">Confirmación de número</string>
+    <string name="is_your_number_correct">Es el número de arriba tú número?</string>
+    <string name="edit">Editar</string>
+    <string name="yes">Si</string>
+    <string name="resend">Re-enviar</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>    
+    
+    <!-- VERIFY CODE ACTIVITY -->
+    <string name="thanks_for_registering">Verificación telefónica</string>
+    <string name="please_enter_4_digits">Por favor ingresa el código de 4 digitos</string>
+    <string name="code_error">El código PIN que ingresaste es inválido. Por favor intenta nuevamente.</string>
+    <string name="sms_sent">Te enviamos un SMS con un código al</string>
+    <string name="callme">Llamar</string>
+    <string name="seconds_left">Debes esperar %d segundos para intentar nuevamente</string>
+    <string name="minutes_left">Debes esperar %d minutos para intentar nuevamente</string>
+    <string name="preparing_callme">Espera la llamada</string>
+    
+    <!-- HELP ACTIVITY -->
+    <string name="help_content">Ayuda!</string>
+    
+    <!-- DIALOGS MESSAGES -->
+    <string name="loading">Cargando</string>
+    <string name="sending_msg">"Enviando mensaje..."</string>
+    <string name="verifying_msg">"Verificando código..."</string>
+    
+    <!-- ERROR MESSAGES -->
+    <string name="ERROR_DEFAULT_MESSAGE">Ha ocurrido un error. Por favor intenta nuevamente en unos minutos.</string>
+    <string name="ERROR_INVALID_NUMBER_LENGTH">El número ingresado no es válido. Por favor intenta nuevamente.</string>
+    <string name="ERROR_INVALID_NUMBER">El número ingresado no es válido. Por favor intenta nuevamente.</string>
+    <string name="ERROR_COUNTRY_NOT_SUPPORTED">El código de país ingresado no es válido. Por favor intenta nuevamente.</string>
+    <string name="ERROR_INVALID_SITE_KEY">Clave inválida. Por favor revisa las instrucciones sobre como usar la biblioteca correctamente.</string>
+    <string name="ERROR_INVALID_APP_KEY">Clave inválida. Por favor revisa las instrucciones sobre como usar la biblioteca correctamente.</string>
+    <string name="ERROR_INVALID_DOMAIN">Aplicación inválida. Por favor revisa las instrucciones sobre como usar la biblioteca correctamente.</string>
+    <string name="ERROR_PHONE_NUMBER_NOT_SIM_CARD">El número ingresado no concuerda con la SIM card. Por favor intenta nuevamente.</string>
+    <string name="ERROR_INVALID_SECRET_KEY">Clave inválida. Por favor revisa las instrucciones sobre como usar la biblioteca correctamente.</string>
+    <string name="ERROR_INVALID_SESSION">Ha ocurrido un error. Por favor intenta nuevamente en unos minutos.</string>
+    <string name="ERROR_SESSION_EXPIRED">Ha ocurrido un error. Por favor intenta nuevamente en unos minutos.</string>
+    <string name="ERROR_MAX_ATTEMPTS_REACHED">Excediste la cantidad máxima de intentos. Por favor intenta nuevamente en unos minutos.</string>
+    <string name="ERROR_OUT_OF_CREDIT">Ha ocurrido un error. Por favor intenta nuevamente en unos minutos.</string>
+    <string name="ERROR_INVALID_PIN_CODE">El código PIN ingresado es incorrecto. Por favor intenta nuevamente.</string>
+    <string name="ERROR_MAX_VALIDATIONS_REACHED">Excediste la cantidad máxima de verificaciones. Por favor solicita otro PIN antes de intenar nuevamente.</string>    
+    
+</resources>

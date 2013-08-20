@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+		<country name="AFGHANISTAN" code="af" dialingCode="93" />
+		<country name="Aland Islands" code="ax" dialingCode="1" />
+		<country name="ALBANIA" code="al" dialingCode="355" />
+		<country name="Algeria" code="dz" dialingCode="213" />
+		<country name="AMERICAN SAMOA" code="as" dialingCode="1" />
+		<country name="ANDORRA" code="ad" dialingCode="376" />
+		<country name="ANGOLA" code="ao" dialingCode="244" />
+		<country name="ANGUILLA" code="ai" dialingCode="1" />
+		<country name="ANTARCTICA" code="aq" dialingCode="1" />
+		<country name="ANTIGUA AND BARBUDA" code="ag" dialingCode="1" />
+		<country name="ARGENTINA" code="ar" dialingCode="54" />
+		<country name="ARMENIA" code="am" dialingCode="374" />
+		<country name="ARUBA" code="aw" dialingCode="297" />
+		<country name="AUSTRALIA" code="au" dialingCode="61" priority="1" />
+		<country name="AUSTRIA" code="at" dialingCode="43" />
+		<country name="AZERBAIJAN" code="az" dialingCode="994" />
+		<country name="BAHAMAS" code="bs" dialingCode="1" />
+		<country name="BAHRAIN" code="bh" dialingCode="973" />
+		<country name="BANGLADESH" code="bd" dialingCode="880" />
+		<country name="BARBADOS" code="bb" dialingCode="1" />
+		<country name="BELARUS" code="by" dialingCode="375" />
+		<country name="BELGIUM" code="be" dialingCode="32" />
+		<country name="BELIZE" code="bz" dialingCode="501" />
+		<country name="BENIN" code="bj" dialingCode="229" />
+		<country name="BERMUDA" code="bm" dialingCode="1" />
+		<country name="BHUTAN" code="bt" dialingCode="975" />
+		<country name="BOLIVIA" code="bo" dialingCode="591" />
+		<country name="BOSNIA AND HERZEGOWINA" code="ba" dialingCode="387" />
+		<country name="BOTSWANA" code="bw" dialingCode="267" />
+		<country name="BOUVET ISLAND" code="bv" dialingCode="1" />
+		<country name="BRAZIL" code="br" dialingCode="55" />
+		<country name="BRITISH INDIAN OCEAN TERRITORY" code="io" dialingCode="246" />
+		<country name="BRUNEI DARUSSALAM" code="bn" dialingCode="673" />
+		<country name="BULGARIA" code="bg" dialingCode="359" />
+		<country name="BURKINA FASO" code="bf" dialingCode="226" />
+		<country name="BURUNDI" code="bi" dialingCode="257" />
+		<country name="CAMBODIA" code="kh" dialingCode="855" />
+		<country name="CAMEROON" code="cm" dialingCode="237" />
+		<country name="CANADA" code="ca" dialingCode="1" />
+		<country name="CAPE VERDE" code="cv" dialingCode="238" />
+		<country name="CAYMAN ISLANDS" code="ky" dialingCode="345" />
+		<country name="CENTRAL AFRICAN REPUBLIC" code="cf" dialingCode="236" />
+		<country name="CHAD" code="td" dialingCode="235" />
+		<country name="CHILE" code="cl" dialingCode="56" />
+		<country name="CHINA" code="cn" dialingCode="86" />
+		<country name="CHRISTMAS ISLAND" code="cx" dialingCode="61" />
+		<country name="COCOS (KEELING) ISLANDS" code="cc" dialingCode="61" />
+		<country name="COLOMBIA" code="co" dialingCode="57" />
+		<country name="COMOROS" code="km" dialingCode="269" />
+		<country name="CONGO" code="cg" dialingCode="242" />
+		<country name="CONGO, THE DRC" code="cd" dialingCode="243" />
+		<country name="COOK ISLANDS" code="ck" dialingCode="682" />
+		<country name="COSTA RICA" code="cr" dialingCode="506" />
+		<country name="COTE D'IVOIRE" code="ci" dialingCode="225" />
+		<country name="CROATIA" code="hr" dialingCode="385" />
+		<country name="CUBA" code="cu" dialingCode="53" />
+		<country name="CYPRUS" code="cy" dialingCode="537" />
+		<country name="CZECH REPUBLIC" code="cz" dialingCode="420" />
+		<country name="DENMARK" code="dk" dialingCode="45" />
+		<country name="DJIBOUTI" code="dj" dialingCode="253" />
+		<country name="DOMINICA" code="dm" dialingCode="1" />
+		<country name="DOMINICAN REPUBLIC" code="do" dialingCode="1" />
+		<country name="East Timor" code="tl" dialingCode="670" />
+		<country name="ECUADOR" code="ec" dialingCode="593" />
+		<country name="EGYPT" code="eg" dialingCode="20" />
+		<country name="EL SALVADOR" code="sv" dialingCode="503" />
+		<country name="EQUATORIAL GUINEA" code="gq" dialingCode="240" />
+		<country name="ERITREA" code="er" dialingCode="291" />
+		<country name="ESTONIA" code="ee" dialingCode="372" />
+		<country name="ETHIOPIA" code="et" dialingCode="251" />
+		<country name="FALKLAND ISLANDS (MALVINAS)" code="fk" dialingCode="500" priority="1"/>
+		<country name="FAROE ISLANDS" code="fo" dialingCode="298" />
+		<country name="FIJI" code="fj" dialingCode="679" />
+		<country name="FINLAND" code="fi" dialingCode="358" />
+		<country name="FRANCE" code="fr" dialingCode="33" />
+		<country name="FRENCH GUIANA" code="gf" dialingCode="594" />
+		<country name="FRENCH POLYNESIA" code="pf" dialingCode="689" />
+		<country name="FRENCH SOUTHERN TERRITORIES" code="tf" dialingCode="1" />
+		<country name="GABON" code="ga" dialingCode="241" />
+		<country name="GAMBIA" code="gm" dialingCode="220" />
+		<country name="GEORGIA" code="ge" dialingCode="995" />
+		<country name="GERMANY" code="de" dialingCode="49" />
+		<country name="GHANA" code="gh" dialingCode="233" />
+		<country name="GIBRALTAR" code="gi" dialingCode="350" />
+		<country name="GREECE" code="gr" dialingCode="30" />
+		<country name="GREENLAND" code="gl" dialingCode="299" />
+		<country name="GRENADA" code="gd" dialingCode="1" />
+		<country name="GUADELOUPE" code="gp" dialingCode="590" priority="1" />
+		<country name="GUAM" code="gu" dialingCode="1" />
+		<country name="GUATEMALA" code="gt" dialingCode="502" />
+		<country name="Guernsey" code="gg" dialingCode="44" />
+		<country name="GUINEA" code="gn" dialingCode="224" />
+		<country name="GUINEA-BISSAU" code="gw" dialingCode="245" />
+		<country name="GUYANA" code="gy" dialingCode="595" />
+		<country name="HAITI" code="ht" dialingCode="509" />
+		<country name="HEARD AND MC DONALD ISLANDS" code="hm" dialingCode="1" />
+		<country name="HOLY SEE (VATICAN CITY STATE)" code="va" dialingCode="379" />
+		<country name="HONDURAS" code="hn" dialingCode="504" />
+		<country name="HONG KONG" code="hk" dialingCode="852" />
+		<country name="HUNGARY" code="hu" dialingCode="36" />
+		<country name="ICELAND" code="is" dialingCode="354" />
+		<country name="INDIA" code="in" dialingCode="91" />
+		<country name="INDONESIA" code="dialingCode" dialingCode="62" />
+		<country name="IRAN" code="ir" dialingCode="98" />
+		<country name="IRAQ" code="iq" dialingCode="1" />
+		<country name="IRELAND" code="ie" dialingCode="353" />
+		<country name="ISRAEL" code="il" dialingCode="972" />
+		<country name="ITALY" code="it" dialingCode="39" />
+		<country name="JAMAICA" code="jm" dialingCode="1" />
+		<country name="JAPAN" code="jp" dialingCode="81" />
+		<country name="Jersey" code="je" dialingCode="44" />
+		<country name="JORDAN" code="jo" dialingCode="962" />
+		<country name="KAZAKHSTAN" code="kz" dialingCode="77" />
+		<country name="KENYA" code="ke" dialingCode="254" />
+		<country name="KIRIBATI" code="ki" dialingCode="686" />
+		<country name="KOREA" code="kp" dialingCode="850" />
+		<country name="KOREA" code="kr" dialingCode="82" />
+		<country name="KUWAIT" code="kw" dialingCode="965" />
+		<country name="KYRGYZSTAN" code="kg" dialingCode="996" />
+		<country name="LAOS " code="la" dialingCode="856" />
+		<country name="LATVIA" code="lv" dialingCode="371" />
+		<country name="LEBANON" code="lb" dialingCode="961" />
+		<country name="LESOTHO" code="ls" dialingCode="266" />
+		<country name="LIBERIA" code="lr" dialingCode="231" />
+		<country name="LIBYAN ARAB JAMAHIRIYA" code="ly" dialingCode="218" />
+		<country name="LIECHTENSTEIN" code="li" dialingCode="423" />
+		<country name="LITHUANIA" code="lt" dialingCode="370" />
+		<country name="LUXEMBOURG" code="lu" dialingCode="352" />
+		<country name="MACAU" code="mo" dialingCode="853" />
+		<country name="MACEDONIA" code="mk" dialingCode="389" />
+		<country name="MADAGASCAR" code="mg" dialingCode="261" />
+		<country name="Man, Isle of" code="im" dialingCode="44" />
+		<country name="MALAWI" code="mw" dialingCode="265" />
+		<country name="MALAYSIA" code="my" dialingCode="60" />
+		<country name="MALDIVES" code="mv" dialingCode="960" />
+		<country name="MALI" code="ml" dialingCode="223" />
+		<country name="MALTA" code="mt" dialingCode="356" />
+		<country name="MARSHALL ISLANDS" code="mh" dialingCode="692" />
+		<country name="MARTINIQUE" code="mq" dialingCode="596" />
+		<country name="MAURITANIA" code="mr" dialingCode="222" />
+		<country name="MAURITIUS" code="mu" dialingCode="230" />
+		<country name="MAYOTTE" code="yt" dialingCode="262" />
+		<country name="MEXICO" code="mx" dialingCode="52" />
+		<country name="MICRONESIA" code="fm" dialingCode="691" />
+		<country name="MOLDOVA, REPUBLIC OF" code="md" dialingCode="373" />
+		<country name="MONACO" code="mc" dialingCode="377" />
+		<country name="MONGOLIA" code="mn" dialingCode="976" />
+		<country name="MONTENEGRO" code="me" dialingCode="382" />
+		<country name="MONTSERRAT" code="ms" dialingCode="1" />
+		<country name="MOROCCO" code="ma" dialingCode="212" />
+		<country name="MOZAMBIQUE" code="mz" dialingCode="258" />
+		<country name="MYANMAR (Burma)" code="mm" dialingCode="95" />
+		<country name="NAMIBIA" code="na" dialingCode="264" />
+		<country name="NAURU" code="nr" dialingCode="674" />
+		<country name="NEPAL" code="np" dialingCode="977" />
+		<country name="NETHERLANDS" code="nl" dialingCode="31" />
+		<country name="NETHERLANDS ANTILLES" code="an" dialingCode="599" />
+		<country name="NEW CALEDONIA" code="nc" dialingCode="687" />
+		<country name="NEW ZEALAND" code="nz" dialingCode="64" />
+		<country name="NICARAGUA" code="ni" dialingCode="505" />
+		<country name="NIGER" code="ne" dialingCode="227" />
+		<country name="NIGERIA" code="ng" dialingCode="234" />
+		<country name="NIUE" code="nu" dialingCode="683" />
+		<country name="NORFOLK ISLAND" code="nf" dialingCode="672" />
+		<country name="NORTHERN MARIANA ISLANDS" code="mp" dialingCode="1" />
+		<country name="NORWAY" code="no" dialingCode="47" priority="1" />
+		<country name="OMAN" code="om" dialingCode="968" />
+		<country name="PAKISTAN" code="pk" dialingCode="92" />
+		<country name="PALAU" code="pw" dialingCode="680" />
+		<country name="Palestinian, State of" code="ps" dialingCode="970" />
+		<country name="PANAMA" code="pa" dialingCode="507" />
+		<country name="PAPUA NEW GUINEA" code="pg" dialingCode="675" />
+		<country name="PARAGUAY" code="py" dialingCode="595" />
+		<country name="PERU" code="pe" dialingCode="51" />
+		<country name="PHILIPPINES" code="ph" dialingCode="63" />
+		<country name="PITCAIRN" code="pn" dialingCode="872" />
+		<country name="POLAND" code="pl" dialingCode="48" />
+		<country name="PORTUGAL" code="pt" dialingCode="351" />
+		<country name="PUERTO RICO" code="pr" dialingCode="1" />
+		<country name="QATAR" code="qa" dialingCode="974" />
+		<country name="REUNION" code="re" dialingCode="262" priority="1" />
+		<country name="ROMANIA" code="ro" dialingCode="40" />
+		<country name="RUSSIAN FEDERATION" code="ru" dialingCode="7" />
+		<country name="RWANDA" code="rw" dialingCode="250" />
+		<country name="Saint-Barthelemy" code="bl" dialingCode="590" />
+		<country name="SAINT KITTS AND NEVIS" code="kn" dialingCode="1" />
+		<country name="Saint Martin" code="mf" dialingCode="590" />
+		<country name="SAINT LUCIA" code="lc" dialingCode="1" />
+		<country name="SAINT VINCENT AND THE GRENADINES" code="vc" dialingCode="1" />
+		<country name="SAMOA" code="ws" dialingCode="685" />
+		<country name="SAN MARINO" code="sm" dialingCode="378" />
+		<country name="SAO TOME AND PRINCIPE" code="st" dialingCode="239" />
+		<country name="SAUDI ARABIA" code="sa" dialingCode="966" />
+		<country name="SENEGAL" code="sn" dialingCode="221" />
+		<country name="SERBIA" code="rs" dialingCode="381" />
+		<country name="SEYCHELLES" code="sc" dialingCode="248" />
+		<country name="SIERRA LEONE" code="sl" dialingCode="232" />
+		<country name="SINGAPORE" code="sg" dialingCode="65" />
+		<country name="SLOVAKIA (Slovak Republic)" code="sk" dialingCode="421" />
+		<country name="SLOVENIA" code="si" dialingCode="386" />
+		<country name="SOLOMON ISLANDS" code="sb" dialingCode="677" />
+		<country name="SOMALIA" code="so" dialingCode="252" />
+		<country name="SOUTH AFRICA" code="za" dialingCode="27" />
+		<country name="SOUTH SUDAN" code="ss" dialingCode="1" />
+		<country name="SOUTH GEORGIA AND SOUTH S.S." code="gs" dialingCode="500" />
+		<country name="SPAIN" code="es" dialingCode="34" />
+		<country name="SRI LANKA" code="lk" dialingCode="94" />
+		<country name="ST. HELENA" code="sh" dialingCode="290" />
+		<country name="ST. PIERRE AND MIQUELON" code="pm" dialingCode="508" />
+		<country name="SUDAN" code="sd" dialingCode="249" />
+		<country name="SURINAME" code="sr" dialingCode="597" />
+		<country name="SVALBARD AND JAN MAYEN ISLANDS" code="sj" dialingCode="47" />
+		<country name="SWAZILAND" code="sz" dialingCode="268" />
+		<country name="SWEDEN" code="se" dialingCode="46" />
+		<country name="SWITZERLAND" code="ch" dialingCode="41" />
+		<country name="SYRIAN ARAB REPUBLIC" code="sy" dialingCode="963" />
+		<country name="TAIWAN, PROVINCE OF CHINA" code="tw" dialingCode="886" />
+		<country name="TAJIKISTAN" code="tj" dialingCode="992" />
+		<country name="TANZANIA, UNITED REPUBLIC OF" code="tz" dialingCode="255" />
+		<country name="THAILAND" code="th" dialingCode="66" />
+		<country name="TOGO" code="tg" dialingCode="228" />
+		<country name="TOKELAU" code="tk" dialingCode="690" />
+		<country name="TONGA" code="to" dialingCode="676" />
+		<country name="TRINdialingCodeAD AND TOBAGO" code="tt" dialingCode="1" />
+		<country name="TUNISIA" code="tn" dialingCode="216" />
+		<country name="TURKEY" code="tr" dialingCode="90" />
+		<country name="TURKMENISTAN" code="tm" dialingCode="993" />
+		<country name="TURKS AND CAICOS ISLANDS" code="tc" dialingCode="1" />
+		<country name="TUVALU" code="tv" dialingCode="688" />
+		<country name="UGANDA" code="ug" dialingCode="256" />
+		<country name="UKRAINE" code="ua" dialingCode="380" />
+		<country name="UNITED ARAB EMIRATES" code="ae" dialingCode="971" />
+		<country name="UNITED KINGDOM" code="gb" dialingCode="44" priority="1" />
+		<country name="UNITED STATES" code="us" dialingCode="1" priority="1" />
+		<country name="U.S. MINOR ISLANDS" code="um" dialingCode="1" />
+		<country name="URUGUAY" code="uy" dialingCode="598" />
+		<country name="UZBEKISTAN" code="uz" dialingCode="998" />
+		<country name="VANUATU" code="vu" dialingCode="678" />
+		<country name="VENEZUELA" code="ve" dialingCode="58" />
+		<country name="VIET NAM" code="vn" dialingCode="84" />
+		<country name="VIRGIN ISLANDS (BRITISH)" code="vg" dialingCode="1" />
+		<country name="VIRGIN ISLANDS (U.S.)" code="vi" dialingCode="1" />
+		<country name="WALLIS AND FUTUNA ISLANDS" code="wf" dialingCode="681" />
+		<country name="WESTERN SAHARA" code="eh" dialingCode="1" />
+		<country name="YEMEN" code="ye" dialingCode="967" />
+		<country name="ZAMBIA" code="zm" dialingCode="260" />
+		<country name="ZIMBABWE" code="zw" dialingCode="263" />
+</countries>
