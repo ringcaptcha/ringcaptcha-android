@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- MAIN ACTIVITY -->
-	<string name="app_name">SampleApp</string>
-	<string name="menu_help">Ajudar</string>
-    <string name="abajo">Abaixo</string>
-    <string name="menu_settings">Configuração</string>
-    <string name="hello_world"></string>
-    <string name="verify_your_phone">Verifique o seu telefone</string>
-    
     <!-- COUNTRY LIST ACTIVITY -->
     <string name="search_title">Seu país</string>
     <string name="search_hint">Procurar...</string>
