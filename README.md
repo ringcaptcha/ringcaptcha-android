@@ -8,6 +8,3 @@
 
 ## Learn More
 - Read the [Android Guides](https://my.ringcaptcha.com/docs/android)
-
-## Contributing
-See the CONTRIBUTING file for how to help out.
