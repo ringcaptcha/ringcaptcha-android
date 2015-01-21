@@ -3,12 +3,15 @@
     <!-- COUNTRY LIST ACTIVITY -->
     <string name="search_title">Seu país</string>
     <string name="search_hint">Procurar...</string>
+    <string name="thanks">Thanks! You have been verified</string>
     
     <!-- VERIFY ACTIVITY -->
     <string name="title_verify">Verifique o seu número</string>
     <string name="cancel">Cancelar</string>
     <string name="done">Feito</string>
-    <string name="please_confirm">Por favor, confirme seu código de país e digite o seu número de telefone</string>
+    <string name="agree">By clicking you agree to the Privacy Policy</string>
+    <string name="please_confirm">Por favor, confirme </string>
+    <string name="your_phone">seu número de telefone</string>
     <string name="your_country">SEU PAIS</string>
     <string name="country_code_phone_number">SEU CODIGO DE PAIS E NUMERO DE TELEFONE</string>
     <string name="phone_number">seu número de telefone</string>

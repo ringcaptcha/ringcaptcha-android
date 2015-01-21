@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- COUNTRY LIST ACTIVITY -->
-    <string name="search_title">Your country</string>
-    <string name="search_hint">Search...</string>
+    <string name="search_title">Select your country</string>
+    <string name="search_hint">Search Country</string>
     
+    <!--  ALERT DIALOG -->
+    <string name="phoneconfirm">Phone number confirmation</string>
+    <string name="isthisyourcard">Is this your phone number?</string>
+    <string name="wearesending">We are sending you a text message with an activaction code</string>
+	<string name="editnumber">Edit number</string>
+    <string name="errormsg">Error message</string>
+  
+    <!-- ONBOARD ACTIVITY -->
+    <string name="selectLast">Select the last 4 digits of</string>
+    <string name="onboard">Onboarded</string>
+   	<string name="cantfindyournumber"><![CDATA[Can\'t find your phone number?]]></string>
+    <string name="edithere">Edit here</string>
+   	
     <!-- VERIFY ACTIVITY -->
     <string name="title_verify">Verify your number</string>
     <string name="cancel">Cancel</string>
     <string name="done">Done</string>
-    <string name="please_confirm">Please confirm your country code and enter your phone number</string>
+    <string name="next">Continue</string>
+    <string name="please_confirm">Please confirm</string>
+    <string name="your_phone">your phone number</string>
     <string name="your_country">YOUR COUNTRY</string>
     <string name="country_code_phone_number">YOUR COUNTRY CODE AND PHONE NUMBER</string>
     <string name="phone_number">your phone number</string>
@@ -16,19 +31,26 @@
     <string name="is_your_number_correct">Is Your phone number above correct?</string>
     <string name="edit">Edit</string>
     <string name="yes">Yes</string>
+    <string name="agree">By clicking you agree to the </string>
+    <string name="privacy">Privacy Policy</string>
     <string name="resend">Re-send</string>
     <string name="no">No</string>
-    <string name="ok">OK</string>    
+    <string name="ok">Ok</string>    
+    <string name="activate">Activate</string>    
     
     <!-- VERIFY CODE ACTIVITY -->
     <string name="thanks_for_registering">Phone number verification</string>
-    <string name="please_enter_4_digits">Please enter the 4 digit activation code</string>
+    <string name="please_enter_4_digits"><![CDATA[We sent you a text with four digits activation code <b>please enter it here</b>]]></string>
     <string name="code_error">The PIN code you entered is invalid. Please try again.</string>
     <string name="sms_sent">We have sent you an SMS with a code to</string>
     <string name="callme">Call me</string>
     <string name="seconds_left">You must wait %d seconds to try again</string>
     <string name="minutes_left">You must wait %d minutes to try again</string>
     <string name="preparing_callme">Wait for the call</string>
+    <string name="thanks">Thanks! You have been verified</string>
+    <string name="didnt_receive"><![CDATA[Didn\'t receive the code?]]></string>
+    <string name="errorTryAgain">Error.Try Again</string>
+    <string name="verified">Verified</string>
     
     <!-- HELP ACTIVITY -->
     <string name="help_content">Help me!</string>

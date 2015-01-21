@@ -1,30 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/commonBackground"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/tableRow1"
+    style="@style/commonBackground"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="wrap_content"
+    android:background="#e7e5e4"
+    android:orientation="vertical" >
 
-    <ImageView
-		android:id="@+id/countryIcon"
-		android:src="@drawable/ic_launcher"
-		style="@style/countryIcon"		
-		/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.thrivecom.ringcaptcha.widget.customview.RoundedImageView
+            android:id="@+id/countryIcon"
+            style="@style/countryIcon"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/countryName"
+            style="@style/countryNameItem" />
+
+        <TextView
+            android:id="@+id/countryDialingCode"
+            style="@style/countryDialingCodeItem" />
+
+        <ImageView
+            android:id="@+id/countrySelected"
+            style="@style/countryCheck"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/v2_tilde"
+            android:visibility="invisible" />
         
-    <TextView
-		android:id="@+id/countryName"
-		style="@style/countryNameItem"
-		/>
-    
-    <TextView
-		android:id="@+id/countryDialingCode"
-		style="@style/countryDialingCodeItem"		
-		/>  
-    
-    <ImageView
-		android:id="@+id/countrySelected"
-		android:src="@drawable/btn_check_buttonless_off"
-		style="@style/countryCheck"		
-		/>
-    
-</TableRow>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc" />
+
+</LinearLayout>
