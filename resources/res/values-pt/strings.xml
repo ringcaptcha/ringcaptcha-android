@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COUNTRY LIST ACTIVITY -->
+    <string name="search_title">Seu país</string>
+    <string name="search_hint">Procurar...</string>
+    <string name="thanks">Thanks! You have been verified</string>
+    
+    <!-- VERIFY ACTIVITY -->
+    <string name="title_verify">Verifique o seu número</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Feito</string>
+    <string name="agree">By clicking you agree to the Privacy Policy</string>
+    <string name="please_confirm">Por favor, confirme </string>
+    <string name="your_phone">seu número de telefone</string>
+    <string name="your_country">SEU PAIS</string>
+    <string name="country_code_phone_number">SEU CODIGO DE PAIS E NUMERO DE TELEFONE</string>
+    <string name="phone_number">seu número de telefone</string>
+    <string name="number_confirmation">Número de confirmação</string>
+    <string name="is_your_number_correct">É correto o seu número de telefone acima?</string>
+    <string name="edit">Editar</string>
+    <string name="yes">Sim</string>
+    <string name="resend">Re-enviar</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>    
+    
+    <!-- VERIFY CODE ACTIVITY -->
+    <string name="thanks_for_registering">Verificação de telefone</string>
+    <string name="please_enter_4_digits">Por favor insira o código de ativação de 4 dígitos.</string>
+    <string name="code_error">O código PIN que você inseriu é inválido. Por favor, tente novamente.</string>
+    <string name="sms_sent">Enviámos-lhe um SMS com um código para o \n número</string>
+    <string name="callme">Me liga</string>
+    <string name="seconds_left">Você deve esperar %d segundos antes de tentar novamente</string>
+    <string name="minutes_left">Você deve esperar %d minutos antes de tentar novamente</string>
+    <string name="preparing_callme">Aguardar a chamada</string>
+    
+    <!-- HELP ACTIVITY -->
+    <string name="help_content">Ajudar</string>
+    
+    <!-- DIALOGS MESSAGES -->
+    <string name="loading">Carregamento</string>
+    <string name="sending_msg">"Envio de mensagem..."</string>
+    <string name="verifying_msg">"Verificação de código..."</string>
+    
+    <!-- ERROR MESSAGES -->
+    <string name="ERROR_DEFAULT_MESSAGE">Houve um erro ao processar seu pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_INVALID_NUMBER_LENGTH">O número de telefone que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_NUMBER">O número de telefone que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_COUNTRY_NOT_SUPPORTED">O código de país que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_SITE_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_APP_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_DOMAIN">Nome do aplicativo inválido. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_PHONE_NUMBER_NOT_SIM_CARD">O número de telefone discado não corresponde cartão SIM. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_SECRET_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_SESSION">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_SESSION_EXPIRED">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_MAX_ATTEMPTS_REACHED">Você excedeu o valor máximo de tentativas. Por favor, tente novamente em 15 minutos.</string>
+    <string name="ERROR_OUT_OF_CREDIT">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_INVALID_PIN_CODE">O código PIN que você inseriu é inválido. Por favor, tente novamente.</string>
+    <string name="ERROR_MAX_VALIDATIONS_REACHED">Você excedeu o valor máximo de verificações. Por favor, solicitar outro PIN antes de tentar novamente.</string>        
+</resources>

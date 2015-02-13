@@ -1,0 +1,283 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.LightActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="commonBackground">
+        <item name="android:background">@drawable/window_background_style</item>
+    </style>
+
+    <!-- set number layout styles -->
+    <style name="setNumberHeading1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="setNumberHeading3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+
+    <style name="barTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+
+    <style name="setNumberHeading2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">#8c8c8c</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@drawable/action_item_background_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal|top|fill_vertical</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#dadddf</item>
+    </style>
+
+    <style name="verifiedButtonStyle">
+        <item name="android:background">#ff217EB9</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal|top|fill_vertical</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    
+    <style name="setNumberEditText">
+        <item name="android:background">@drawable/edittext_background_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+
+    <style name="alertButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="alertHeader1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alertHeader2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+
+    <style name="alertPhoneNumber">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#9dbbce</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#f7f8f8</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="dialingCodeStyle" parent="setNumberEditText">
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">5</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+
+    <style name="setNumberCountryIcon">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="nombrePais">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_weight">2.25</item>
+        <item name="android:gravity">bottom|fill_vertical</item>
+        <item name="android:text">@string/search_hint</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="arrowBtt">
+        <item name="android:layout_width">19dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="buttonHelp">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:src">@drawable/v2_icon_inter</item>
+    </style>
+
+    <style name="fullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+    </style>
+
+    <!-- country item style -->
+    <style name="countryNameItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+
+    <style name="countryDialingCodeItem" parent="countryNameItem">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+
+    <style name="countryIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="countryCheck">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- activity code style -->
+    <style name="codeNumber">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:background">@drawable/edittext_background_style</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+
+    <style name="codeActivityHeading1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="backArrowBtt">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">16px</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:src">@drawable/back_arrow</item>
+    </style>
+
+    <style name="callmebtt">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#9dbbcd</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="progressBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:max">5</item>
+        <item name="android:progress">0</item>
+        <item name="android:progressDrawable">@drawable/progressbar_style</item>
+    </style>
+
+    <style name="sentto" parent="setNumberHeading3">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+    <style name="error" parent="setNumberHeading3">
+        <item name="android:textColor">#e95d4b</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+</resources>
