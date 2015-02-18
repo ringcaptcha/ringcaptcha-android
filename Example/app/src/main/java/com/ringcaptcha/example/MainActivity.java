@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                RingcaptchaApplication.verifyPhoneNumber(getApplicationContext(), API_KEY, API_SECRET, new RingcaptchaApplicationHandler() {
+                RingcaptchaApplication.onboard(getApplicationContext(), API_KEY, API_SECRET, new RingcaptchaApplicationHandler() {
                     @Override
                     public void onSuccess(RingcaptchaVerification rcObj) {
                         Log.i(TAG, "success");
