@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#f2f2f2"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageActivateApp"
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/v2_bkg_activate_app" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center_horizontal|center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/setNumberHeading3"
+                    android:text="@string/please_confirm" />
+
+                <TextView
+                    style="@style/setNumberHeading3"
+                    android:text="@string/your_phone"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/countryselect_background_style"
+                android:orientation="horizontal"
+                android:padding="6dp" >
+
+                <com.thrivecom.ringcaptcha.widget.customview.RoundedImageView
+                    android:id="@+id/setNumberCountryIcon"
+                    style="@style/setNumberCountryIcon" />
+
+                <TextView
+                    android:id="@+id/nombrepais"
+                    style="@style/nombrePais" />
+
+                <ImageButton
+                    android:id="@+id/btnselectcountry"
+                    style="@style/arrowBtt"
+                    android:src="@drawable/v2_go" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/textDialingCode"
+                    style="@style/dialingCodeStyle" />
+
+                <EditText
+                    android:id="@+id/textPhone"
+                    style="@style/setNumberEditText"
+                    android:hint="@string/phone_number"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/butOk"
+                style="@style/buttonStyle"
+                android:enabled="false"
+                android:text="@string/next" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/setNumberHeading3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agree" />
+
+                <TextView
+                    style="@style/setNumberHeading3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/privacyBtt"
+                    android:text="@string/privacy" />
+                
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ringcatpcha_logo_codelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/layout/activity_setnumber.xml -->

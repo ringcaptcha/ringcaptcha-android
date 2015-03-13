@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ERROR_COUNTRY_NOT_SUPPORTED">The country code you entered is not valid. Please try again.</string>
+    <string name="ERROR_DEFAULT_MESSAGE">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_INVALID_APP_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_DOMAIN">Invalid app name. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_NUMBER">The phone number you entered is not valid. Please try again.</string>
+    <string name="ERROR_INVALID_NUMBER_LENGTH">The phone number you entered is not valid. Please try again.</string>
+    <string name="ERROR_INVALID_PIN_CODE">The PIN code you entered is invalid. Please try again.</string>
+    <string name="ERROR_INVALID_SECRET_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_INVALID_SESSION">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_INVALID_SITE_KEY">Invalid key. Please check the instructions on how to use the app correctly.</string>
+    <string name="ERROR_MAX_ATTEMPTS_REACHED">You exceeded the maximum amount of attempts. Please try again in 15 minutes.</string>
+    <string name="ERROR_MAX_VALIDATIONS_REACHED">You exceeded the maximum amount of verifications. Please request another PIN before trying again.</string>
+    <string name="ERROR_OUT_OF_CREDIT">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="ERROR_PHONE_NUMBER_NOT_SIM_CARD">The phone number you dialed does not match sim card. Please try again.</string>
+    <string name="ERROR_SESSION_EXPIRED">There has been an error while processing the request, please try again in a few minutes.</string>
+    <string name="activate">Activate</string>
+    <string name="agree">By clicking you agree to the </string>
+    <string name="callme">Call me</string>
+    <string name="cancel">Cancel</string>
+    <string name="cantfindyournumber"><![CDATA[Can\'t find your phone number?]]></string>
+    <string name="code_error">The PIN code you entered is invalid. Please try again.</string>
+    <string name="country_code_phone_number">YOUR COUNTRY CODE AND PHONE NUMBER</string>
+    <string name="didnt_receive"><![CDATA[Didn\'t receive the code?]]></string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="edithere">Edit here</string>
+    <string name="editnumber">Edit number</string>
+    <string name="errorTryAgain">Error.Try Again</string>
+    <string name="errormsg">Error message</string>
+    <string name="help_content">Help me!</string>
+    <string name="is_your_number_correct">Is Your phone number above correct?</string>
+    <string name="isthisyourcard">Is this your phone number?</string>
+    <string name="loading">Loading</string>
+    <string name="minutes_left">You must wait %d minutes to try again</string>
+    <string name="next">Continue</string>
+    <string name="no">No</string>
+    <string name="number_confirmation">Number Confirmation</string>
+    <string name="ok">Ok</string>
+    <string name="onboard">Onboarded</string>
+    <string name="phone_number">your phone number</string>
+    <string name="phoneconfirm">Phone number confirmation</string>
+    <string name="please_confirm">Please confirm</string>
+    <string name="please_enter_4_digits"><![CDATA[We sent you a text with four digits activation code <b>please enter it here</b>]]></string>
+    <string name="preparing_callme">Wait for the call</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="resend">Re-send</string>
+    <string name="search_hint">Search Country</string>
+    <string name="search_title">Select your country</string>
+    <string name="seconds_left">You must wait %d seconds to try again</string>
+    <string name="selectLast">Select the last 4 digits of</string>
+    <string name="sending_msg">"Sending message..."</string>
+    <string name="sms_sent">We have sent you an SMS with a code to</string>
+    <string name="thanks">Thanks! You have been verified</string>
+    <string name="thanks_for_registering">Phone number verification</string>
+    <string name="title_verify">Verify your number</string>
+    <string name="verified">Verified</string>
+    <string name="verifying_msg">"Verifying code..."</string>
+    <string name="wearesending">We are sending you a text message with an activaction code</string>
+    <string name="yes">Yes</string>
+    <string name="your_country">YOUR COUNTRY</string>
+    <string name="your_phone">your phone number</string>
+    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+    </style>
+    <style name="alertButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="alertHeader1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="alertHeader2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+    <style name="alertPhoneNumber">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#9dbbce</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#f7f8f8</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="arrowBtt">
+        <item name="android:layout_width">19dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="backArrowBtt">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">16px</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:src">@drawable/back_arrow</item>
+    </style>
+    <style name="barTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+    <style name="buttonHelp">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:src">@drawable/v2_icon_inter</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:background">@drawable/action_item_background_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal|top|fill_vertical</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#dadddf</item>
+    </style>
+    <style name="callmebtt">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#9dbbcd</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="codeActivityHeading1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="codeNumber">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:background">@drawable/edittext_background_style</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+    <style name="commonBackground">
+        <item name="android:background">@drawable/window_background_style</item>
+    </style>
+    <style name="countryCheck">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="countryDialingCodeItem" parent="countryNameItem">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+    <style name="countryIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="countryNameItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#a1a1a0</item>
+    </style>
+    <style name="dialingCodeStyle" parent="setNumberEditText">
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">5</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+    <style name="error" parent="setNumberHeading3">
+        <item name="android:textColor">#e95d4b</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="fullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+    </style>
+    <style name="nombrePais">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_weight">2.25</item>
+        <item name="android:gravity">bottom|fill_vertical</item>
+        <item name="android:text">@string/search_hint</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#879399</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="progressBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:max">5</item>
+        <item name="android:progress">0</item>
+        <item name="android:progressDrawable">@drawable/progressbar_style</item>
+    </style>
+    <style name="sentto" parent="setNumberHeading3">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="setNumberCountryIcon">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="setNumberEditText">
+        <item name="android:background">@drawable/edittext_background_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+    <style name="setNumberHeading1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="setNumberHeading2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">#8c8c8c</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="setNumberHeading3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#879399</item>
+    </style>
+    <style name="verifiedButtonStyle">
+        <item name="android:background">#ff217EB9</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal|top|fill_vertical</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/alert_background_style"
+    android:padding="0dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/alertHeader1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/phoneconfirm" />
+
+    <TextView
+        style="@style/alertHeader2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/isthisyourcard" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:background="#dbdbdb" >
+    </View>
+
+    <TextView
+        style="@style/alertPhoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/alertPhoneNumber"
+        android:text="+543413544545" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="18dp"
+        android:background="#dbdbdb" >
+    </View>
+
+    <TextView
+        style="@style/alertHeader2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/wearesending" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:background="#dbdbdb" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="1" >
+
+        <Button
+            style="@style/alertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:background="@null"
+            android:id="@+id/alertEditBtt"
+            android:text="@string/editnumber" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#dbdbdb" />
+
+        <Button
+            style="@style/alertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@null"
+            android:id="@+id/alertOkBtt"
+            android:gravity="center_horizontal"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/layout/alert_dialog.xml -->
