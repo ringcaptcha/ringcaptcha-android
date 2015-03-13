@@ -18,7 +18,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
     // ...
-    compile 'com.thrivecom:ringcaptcha:1.0.5@aar'
+    compile 'com.thrivecom:ringcaptcha:1.0.6@aar'
 }
 ```
 
