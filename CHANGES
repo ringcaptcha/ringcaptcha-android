@@ -1,0 +1,7 @@
+Changes with version 1.0.5					13 March 2015
+
+Added custom scheme option
+Included phone number formatting
+Reading enabled countries from RingCaptcha
+Updating SSL certificate
+Adding Gradle support
