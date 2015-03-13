@@ -1,5 +1,6 @@
 package com.ringcaptcha.example;
 
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,9 +16,9 @@ import com.thrivecom.ringcaptcha.RingcaptchaVerification;
 
 public class MainActivity extends ActionBarActivity {
 
-    private static final String API_KEY = "i3ufi2uqy6uzo6ili7yg";
-    private static final String API_SECRET = "u8a2imy7aru2o9ozo8yf";
-    private static final String TAG = "Ringcaptcha verification";
+    private static final String APP_KEY = "REPLACE_WITH_YOUR_APP_KEY";
+    private static final String API_SECRET = "REPLACE_WITH_YOUR_SECREY_KEY";
+    private static final String TAG = "Ringcaptcha";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                RingcaptchaApplication.onboard(getApplicationContext(), API_KEY, API_SECRET, new RingcaptchaApplicationHandler() {
+                RingcaptchaApplication.onboard(getApplicationContext(), APP_KEY, API_SECRET, new RingcaptchaApplicationHandler() {
                     @Override
                     public void onSuccess(RingcaptchaVerification rcObj) {
                         Log.i(TAG, "success");
@@ -42,6 +43,25 @@ public class MainActivity extends ActionBarActivity {
                 });
             }
         });
+
+
+        Uri data = getIntent().getData();
+        if(data != null && data.getQueryParameter("pin") != null) {
+            String pin = data.getQueryParameter("pin");
+
+            RingcaptchaApplication.onboard(getApplicationContext(), APP_KEY, API_SECRET, pin, new RingcaptchaApplicationHandler() {
+
+                @Override
+                public void onSuccess(RingcaptchaVerification ringObj) {
+                    Log.i(TAG, "success");
+                }
+
+                @Override
+                public void onCancel() {
+                    Log.i(TAG, "cancel");
+                }
+            });
+        }
     }
 
 }
