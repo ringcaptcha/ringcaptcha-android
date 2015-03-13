@@ -10,7 +10,7 @@ Import the Ringcaptcha sdk into your Android project, adding gradle dependencies
 ```gradle
 repositories {
 // ...
- maven { url 'http://ringcaptcha.github.io/ringcaptcha-android/Ringcaptcha'}
+ maven { url 'http://ringcaptcha.github.io/ringcaptcha-android'}
 // ...
 }
 
@@ -18,7 +18,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
     // ...
-    compile 'com.thrivecom.ringcaptcha:ringcaptcha:1.0.5@aar'
+    compile 'com.thrivecom:ringcaptcha:1.0.5@aar'
 }
 ```
 
