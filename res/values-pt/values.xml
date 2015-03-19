@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="ERROR_COUNTRY_NOT_SUPPORTED">O código de país que você digitou não é válido. Por favor, tente novamente.</string>
     <string name="ERROR_DEFAULT_MESSAGE">Houve um erro ao processar seu pedido, por favor, tente novamente em alguns minutos.</string>

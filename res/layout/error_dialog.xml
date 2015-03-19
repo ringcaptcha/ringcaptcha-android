@@ -38,4 +38,4 @@
         android:gravity="center_horizontal"
         android:text="@string/ok" />
 
-</LinearLayout><!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/layout/error_dialog.xml -->
+</LinearLayout><!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/layout/error_dialog.xml -->

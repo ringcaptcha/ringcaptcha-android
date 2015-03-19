@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ERROR_COUNTRY_NOT_SUPPORTED">The country code you entered is not valid. Please try again.</string>
     <string name="ERROR_DEFAULT_MESSAGE">There has been an error while processing the request, please try again in a few minutes.</string>
@@ -67,7 +67,7 @@
     <string name="yes">Yes</string>
     <string name="your_country">YOUR COUNTRY</string>
     <string name="your_phone">your phone number</string>
-    <!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->

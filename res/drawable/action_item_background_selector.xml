@@ -9,4 +9,4 @@
         android:state_enabled="true" 
         android:drawable="@drawable/button_enabled" />
 
-</selector><!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/drawable/action_item_background_selector.xml -->
+</selector><!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/drawable/action_item_background_selector.xml -->

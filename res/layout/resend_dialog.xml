@@ -72,4 +72,4 @@
             android:text="@string/resend" />
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/layout/resend_dialog.xml -->
+</LinearLayout><!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/layout/resend_dialog.xml -->

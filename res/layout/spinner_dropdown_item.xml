@@ -10,4 +10,4 @@
     android:textStyle="bold"
     android:gravity="center_vertical|center_horizontal"
     android:textSize="22sp" />
-<!-- From: file:/Users/mcocaro/Documents/Sandbox/Ringcaptcha/Android/Library/lib/src/main/res/layout/spinner_dropdown_item.xml -->
+<!-- From: file:/Users/martin/Documents/ringcaptcha/sandbox/android/Library/lib/src/main/res/layout/spinner_dropdown_item.xml -->

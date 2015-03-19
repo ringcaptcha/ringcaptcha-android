@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.thrivecom.ringcaptcha.RingcaptchaAPIHandler;
 import com.thrivecom.ringcaptcha.RingcaptchaApplication;
 import com.thrivecom.ringcaptcha.RingcaptchaApplicationHandler;
 import com.thrivecom.ringcaptcha.RingcaptchaVerification;
