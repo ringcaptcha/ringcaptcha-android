@@ -1,11 +1,11 @@
 <metadata>
   <groupId>com.thrivecom</groupId>
   <artifactId>ringcaptcha</artifactId>
-  <version>1.0.6</version>
+  <version>1.0.7</version>
   <versioning>
     <versions>
-      <version>1.0.6</version>
+      <version>1.0.7</version>
     </versions>
-    <lastUpdated>20150313205505</lastUpdated>
+    <lastUpdated>20150319155134</lastUpdated>
   </versioning>
 </metadata>
