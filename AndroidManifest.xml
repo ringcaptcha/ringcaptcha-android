@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.thrivecom.ringcaptcha"
-    android:versionCode="107"
-    android:versionName="1.0.7" >
+    android:versionCode="108"
+    android:versionName="1.0.8" >
 
     <uses-sdk
         android:minSdkVersion="10"
@@ -20,25 +20,6 @@
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.thrivecom.ringcaptcha.sample.MainActivity"
-            android:label="Ringcaptcha sample" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:host="ringcaptcha"
-                    android:scheme="sampleapp" />
-            </intent-filter>
-        </activity>
         <activity
             android:name="com.thrivecom.ringcaptcha.SetNumberActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize"

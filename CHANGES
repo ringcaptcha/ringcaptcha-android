@@ -1,3 +1,7 @@
+Changes with version 1.0.8					16 April 2015
+
+Removed extra Manifest.xml from library
+
 Changes with version 1.0.7					19 March 2015
 
 Fix issue of library attempting to load url instead of pin code
