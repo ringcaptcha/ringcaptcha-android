@@ -1,3 +1,7 @@
+##  1.0.11 - 2 June 2017
+
+- Avoid creating Ringcaptcha sample APP when you build this project
+
 ##  1.0.9 - 26 May 2017
 
 - Add RingcaptchaApplication::set_context to avoid null error in RingcaptchaApplication::getPrefs
