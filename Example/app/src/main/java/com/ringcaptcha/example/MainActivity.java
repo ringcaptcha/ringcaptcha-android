@@ -1,7 +1,7 @@
 package com.ringcaptcha.example;
 
 import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -15,7 +15,7 @@ import com.thrivecom.ringcaptcha.RingcaptchaApplicationHandler;
 import com.thrivecom.ringcaptcha.RingcaptchaVerification;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String APP_KEY = "REPLACE_WITH_YOUR_APP_KEY";
     private static final String API_SECRET = "REPLACE_WITH_YOUR_SECREY_KEY";
